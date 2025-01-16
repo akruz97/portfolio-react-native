@@ -27,7 +27,7 @@ const NavBar = () => {
     return (
         <div>
             <header>
-                <nav  className="flex flex-col sm:flex-row px-10 py-10">
+                <nav  className="flex flex-col sm:flex-row px-6 sm:px-10 py-10">
                     <div className="flex items-center justify-center">
                         <span className="px-5">
                             Jose Cruz Dev

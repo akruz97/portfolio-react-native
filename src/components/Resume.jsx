@@ -7,11 +7,11 @@ const Resume = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="flex justify-center mt-10" id="resume" >
+        <section className="flex justify-center items-center mt-10 ml-8 sm:px-0 sm:ml-0" id="resume" >
             <div className="">
                 <img src={ProfileImg} 
                     alt="Not found image profile" 
-                    className="object-cover size-44 md:size-72 max-h-96 max-w-96 rounded-full"
+                    className="object-cover size-36 md:size-72 max-h-96 max-w-96 rounded-full"
                 />
             </div>
 
