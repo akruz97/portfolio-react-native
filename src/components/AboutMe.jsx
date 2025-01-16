@@ -11,8 +11,8 @@ const AboutMe = () => {
   return (
     <Layout>
         <div className='mt-14 mb-24' >
-            <Title text={t('resume')} />
-            <p className='mt-8'>{t('aboutMe')}</p>
+            <Title text={t('resume').toUpperCase()} />
+            <p className='mt-8 text-justify'>{t('aboutMe')}</p>
         </div>
     </Layout>
   );

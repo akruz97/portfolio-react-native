@@ -18,7 +18,7 @@ const ItemExperience = ({item}) => {
         <h3 className='text-sm'>{subtitle}</h3>
         <h3 className='text-sm md:mt-5 text-slate-400'>{time}</h3>
       </div>
-      <div className='flex-1  mt-5 md:mt-0 sm:mt-0 '>
+      <div className='flex-1 text-justify mt-5 md:mt-0 sm:mt-0 '>
         <ul className='list-item '>
         {
             activities.map((item, idx) => {

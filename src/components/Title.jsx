@@ -4,7 +4,7 @@ const Title = ({
     text = ''
 }) => {
   return (
-    <h2 className='text-center text-2xl' style={{ fontFamily: 'Gilroy-Bold' }} >{text}</h2>
+    <h2 className='text-center text-xl' style={{ fontFamily: 'Gilroy-Bold' }} >{text}</h2>
   );
 };
 

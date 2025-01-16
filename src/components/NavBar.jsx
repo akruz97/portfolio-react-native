@@ -51,12 +51,14 @@ const NavBar = () => {
                                 </div>     
                         </ul>
                     </div>
-                    <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-2 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center" type="button" data-dropdown-toggle="dropdown">{TitleLanguages[language]} </button>
+                    <button className="text-white hover:bg-blue-800 focus:ring-2 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center" type="button" data-dropdown-toggle="dropdown">{TitleLanguages[language]} <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+</svg></button>
 
 
-                    <div className="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4" id="dropdown">
+                    <div className="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4 w-2/3 sm:w-auto" id="dropdown">
                     
-                        <ul className="py-1" aria-labelledby="dropdown">
+                        <ul className="py-1 " aria-labelledby="dropdown">
                             {
                                 LANGUAGES.map((lang, idx) => {
                                     return (

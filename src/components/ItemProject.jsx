@@ -20,7 +20,7 @@ const ItemProject = ({
             </div>
             <div className='flex-1 flex flex-col justify-center px-8 sm:px-12 mt-10 sm:mt-10'>
                 <h4 className='text-xl' style={{ fontFamily: 'Gilroy-Bold' }} >{title}</h4>
-                <p className='mt-6 text-md'>{description}</p>
+                <p className='mt-6 text-md text-justify'>{description}</p>
             </div>
 
         </div>

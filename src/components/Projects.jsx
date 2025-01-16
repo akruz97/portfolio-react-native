@@ -28,7 +28,7 @@ const Projects = () => {
   return (
     <section className='w-full' id='projects'>
         <div className='mt-16 sm:mt-24'>
-            <Title text={t('projects')} />
+            <Title text={t('projects').toUpperCase()} />
       
             <ItemProject 
             image={ImgProjectFlawless} 

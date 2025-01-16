@@ -15,7 +15,7 @@ const Experiences = () => {
   return (
     <Layout>
       <section className='mt-10' id='experiences' >
-        <Title text={t('experiences')} />
+        <Title text={t('experiences').toUpperCase()} />
         
         {
           listLang.map((item, idx) => {
