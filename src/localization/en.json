@@ -1,0 +1,19 @@
+{
+    "translation": {
+      "resume": "About me",
+      "experiences": "Experiences",
+      "technology": "Technologies",
+      "projects": "Projects",
+      "title1": "Hi. I'm Jose Cruz",
+      "title2": "I'm a Software Engineer,",
+      "title3": "FullStack  and",
+      "title4": "React Native Developer",
+      "aboutMe": "I am a Computer Systems Engineer, I have more than 5 years of experience as a Software Developer and as a specialist in hybrid mobile apps with React Native. I have developed several mobile applications, being involved from the design phases to the deployment to the stores, achieving hundreds of users and downloads in App Store and Google Play in some of them. I have participated in web projects with .Net and JavaScript technologies within the banking sector and others based on Odoo ERP.",
+      "flawless": "Android and iOS mobile app for the contracting of services professional services with integration to Flow payment gateway.",
+      "kik": "Android and iOS mobile app for the management of social media marketing campaigns marketing campaigns in social networks, oriented to brands (stores) and influencers.",
+      "oroverde": "Android and iOS mobile app for the Oro Verde hotel chain, allowing hundreds of users to manage and use the Oro Verde Pasaporte Oro Verde",
+      "kiupon": "Android and iOS mobile app for a digital coupons with benefits and discounts to local, restaurants, and commercial establishments in the city of Guayaquil - Ecuador, with implementation to Paymentez payment gateway under recurring monthly subscription model.",
+      "trueki": "Development of an android MVP application called Trueki, social media app for the exchange of various products between users with Odoo ERP integration."
+
+    }
+}

@@ -75,7 +75,7 @@ export const LIST_EXPERIENCES = [
         subtitle: 'Viamatica S.A.',
         time: 'Mar 2019 - Sep 2019',
         activities: [
-            'I participated in the creation of a web site with Asp .Net, aimed at attracting CNB (Non Banking Correspondents) users of users CNB (Corresponsales No Bancarios) of Banco Guayaquil.',
+            'I participated in the creation of a web site with Asp .Net, aimed at attracting CNB (Non Banking Correspondents) of Banco Guayaquil.',
             'Managed SQL Server databases and SQL queries with stored procedures.',
             'Documented developments and new functionalities that required moving to production.',
             'Developed ETL processes in SQL Server Integration Server 2012 for the migration of a database'

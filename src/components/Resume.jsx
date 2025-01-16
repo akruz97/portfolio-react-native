@@ -1,7 +1,11 @@
 import React from "react";
 import ProfileImg from "./../assets/img/perfil.jpg";
+import { useTranslation } from "react-i18next";
 
 const Resume = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className="flex justify-center mt-10" >
             <div className="">
@@ -13,10 +17,10 @@ const Resume = () => {
 
             <div className="flex items-center px-10 md:p-10">   
                 <div className="title text-2xl" style={{ fontFamily: 'Gilroy-Bold' }}>
-                    <div>Hi. I'm Jose Cruz</div>
-                    <div>I'm a Software Engineer,</div>
-                    <div>FullStack  and</div>
-                    <div>React Native Developer</div>
+                    <div>{t('title1')}</div>
+                    <div>{t('title2')}</div>
+                    <div>{t('title3')}</div>
+                    <div>{t('title4')}</div>
                 </div>
             </div>
            

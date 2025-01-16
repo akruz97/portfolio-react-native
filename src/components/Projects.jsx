@@ -19,41 +19,45 @@ import ImgProjectTrueki from "./../assets/img/projects/trueki/Pixel True Mockup 
 import ImgProjectTrueki2 from "./../assets/img/projects/trueki/Pixel True Mockup (4).png"
 
 import ItemProject from './ItemProject';
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+
+  const { t } = useTranslation();
+
   return (
     <div className='w-full'>
         <div className='mt-24'>
-            <Title text='Projects Mobile' />
+            <Title text={t('projects')} />
             <ItemProject 
             image={ImgProjectFlawless} 
             image2={ImgProjectFlawless2} 
             title={'Flawless App'} 
-            description={'Android and iOS mobile app for the contracting of services professional services with integration to Flow payment gateway.'} />
+            description={t('flawless')} />
 
             <ItemProject 
             image={ImgProjectKik} 
             image2={ImgProjectKik2}
             title={'KIK App'} 
-            description={'Android and iOS mobile app for the management of social media marketing campaigns marketing campaigns in social networks, oriented to brands (stores) and influencers.'} />
+            description={t('kik')} />
 
             <ItemProject 
             image={ImgProjectOroVerde}
             image2={ImgProjectOroVerde2} 
             title={'Oro Verde App v1'} 
-            description={'Android and iOS mobile app for the Oro Verde hotel chain, allowing hundreds of users to manage and use the Oro Verde Pasaporte Oro Verde'} />
+            description={t('oroverde')} />
 
             <ItemProject 
             image={ImgProjectKiupon}
             image2={ImgProjectKiupon2} 
             title={'Kiupon App'} 
-            description={'Android and iOS mobile app for a digital coupons with benefits and discounts to local, restaurants, and commercial establishments in the city of Guayaquil - Ecuador, with implementation to Paymentez payment gateway under recurring monthly subscription model.'} />
+            description={t('kiupon')} />
 
             <ItemProject 
             image={ImgProjectTrueki} 
             image2={ImgProjectTrueki2}
             title={'Trueki App'} 
-            description={'Development of an android MVP application called Trueki, social media app for the exchange of various products between users with Odoo ERP integration.'} />
+            description={t('trueki')} />
         </div>
     </div>
   );
