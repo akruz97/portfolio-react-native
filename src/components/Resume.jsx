@@ -7,7 +7,7 @@ const Resume = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="flex justify-center mt-10" >
+        <section className="flex justify-center mt-10" id="resume" >
             <div className="">
                 <img src={ProfileImg} 
                     alt="Not found image profile" 
@@ -25,7 +25,7 @@ const Resume = () => {
             </div>
            
 
-        </div>
+        </section>
     )
 };
 

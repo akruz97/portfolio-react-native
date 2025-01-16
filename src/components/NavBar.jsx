@@ -27,18 +27,28 @@ const NavBar = () => {
     return (
         <div>
             <header>
-                <nav  className="flex flex-row px-10 py-10">
-                    <div className="flex items-center">
+                <nav  className="flex flex-col sm:flex-row px-10 py-10">
+                    <div className="flex items-center justify-center">
                         <span className="px-5">
                             Jose Cruz Dev
                         </span>
                     </div>
-                    <div className="flex-1 justify-items-end">
-                        <ul className="flex text-md" style={{ fontFamily: 'Gilroy-Bold' }}>
-                                <li className="px-2 py-3 mr-5 hover:underline">{t('resume')}</li>
-                                <li className="px-2 py-3 mr-5 hover:underline">{t('experiences')}</li>
-                                <li className="px-2 py-3 mr-5 hover:underline">{t('technology')}</li>
-                                <li className="px-2 py-3 mr-5 hover:underline">{t('projects')}</li>       
+                    <div className="flex-1 flex-row sm:justify-items-end">
+                        <ul className="flex flex-col sm:flex-row text-md" style={{ fontFamily: 'Gilroy-Bold' }}>
+                               <div>
+                                    <li className="px-2 py-3 mr-5 hover:underline">
+                                        <a href="#resume">{t('resume')}</a>
+                                    </li>
+                               </div>
+                              <div>
+                                    <li className="px-2 py-3 mr-5 hover:underline"><a href="#experiences">{t('experiences')}</a></li>
+                              </div>
+                                <div>
+                                <li className="px-2 py-3 mr-5 hover:underline"><a href="#technology">{t('technology')}</a></li>
+                                </div>
+                               <div>
+                               <li className="px-2 py-3 mr-5 hover:underline"><a href="#projects">{t('projects')}</a></li>  
+                                </div>     
                         </ul>
                     </div>
                     <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-2 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center" type="button" data-dropdown-toggle="dropdown">{TitleLanguages[language]} </button>

@@ -26,14 +26,17 @@ const Projects = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='w-full'>
-        <div className='mt-24'>
+    <section className='w-full' id='projects'>
+        <div className='mt-16 sm:mt-24'>
             <Title text={t('projects')} />
+      
             <ItemProject 
             image={ImgProjectFlawless} 
             image2={ImgProjectFlawless2} 
             title={'Flawless App'} 
             description={t('flawless')} />
+
+            <hr className='mt-20 mx-8 sm:mx-24' />
 
             <ItemProject 
             image={ImgProjectKik} 
@@ -41,11 +44,15 @@ const Projects = () => {
             title={'KIK App'} 
             description={t('kik')} />
 
+            <hr className='mt-20 mx-8 sm:mx-24' />
+
             <ItemProject 
             image={ImgProjectOroVerde}
             image2={ImgProjectOroVerde2} 
             title={'Oro Verde App v1'} 
             description={t('oroverde')} />
+
+            <hr className='mt-20 mx-8 sm:mx-24' />
 
             <ItemProject 
             image={ImgProjectKiupon}
@@ -53,13 +60,15 @@ const Projects = () => {
             title={'Kiupon App'} 
             description={t('kiupon')} />
 
+            <hr className='mt-20 mx-8 sm:mx-24' />
+
             <ItemProject 
             image={ImgProjectTrueki} 
             image2={ImgProjectTrueki2}
             title={'Trueki App'} 
             description={t('trueki')} />
         </div>
-    </div>
+    </section>
   );
 };
 

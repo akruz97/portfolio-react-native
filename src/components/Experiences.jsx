@@ -14,7 +14,7 @@ const Experiences = () => {
 
   return (
     <Layout>
-      <div className='mt-10' >
+      <section className='mt-10' id='experiences' >
         <Title text={t('experiences')} />
         
         {
@@ -23,7 +23,7 @@ const Experiences = () => {
           })
         }
       
-      </div>
+      </section>
     </Layout>
   );
 };
